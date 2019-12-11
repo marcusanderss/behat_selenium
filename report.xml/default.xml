@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="default">
+  <testsuite name="" tests="1" skipped="0" failures="0" errors="0" time="1">
+    <testcase name="Gå till huvudsidan" status="passed" time="0"></testcase>
+  </testsuite>
+  <testsuite name="" tests="1" skipped="0" failures="0" errors="0" time="1">
+    <testcase name="Klicka på &quot;Stöd och verktyg&quot;" status="passed" time="1"></testcase>
+  </testsuite>
+  <testsuite name="" tests="1" skipped="0" failures="0" errors="0" time="0">
+    <testcase name="Klicka på &quot;css selector&quot;" status="passed" time="0"></testcase>
+  </testsuite>
+  <testsuite name="Första beta versionen med page objects" tests="1" skipped="0" failures="0" errors="0" time="0">
+    <testcase name="Gå till startsidan och klicka på diverse länkar" status="passed" time="0"></testcase>
+  </testsuite>
+  <testsuite name="" tests="1" skipped="0" failures="0" errors="0" time="2">
+    <testcase name="Cake main page" status="passed" time="2"></testcase>
+  </testsuite>
+</testsuites>

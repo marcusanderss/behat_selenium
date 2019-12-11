@@ -1,0 +1,27 @@
+default:
+    extensions:
+        SensioLabs\Behat\PageObjectExtension: ~
+        
+        Behat\MinkExtension:
+            base_url: 'http://demowebshop.tricentis.com/'
+            goutte: ~
+            selenium2:
+              wd_host: "http://127.0.0.1:4444/wd/hub"
+              capabilities: 
+                            browser: "chrome"
+                            version: "*"
+                            chrome:
+                                switches:
+                                    - "--headless"
+                                    - "--disable-gpu"
+                                    - "--window-size=1920,1080"
+                                    - "--no-sandbox"
+                            extra_capabilities:
+                              chromeOptions:
+                                w3c: false
+                  
+    suites:
+        default:
+            contexts:
+                - FeatureContext
+    
